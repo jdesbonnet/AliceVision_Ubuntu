@@ -18,9 +18,12 @@ export ALICEVISION_DIR=$HOME/alice_vision
 mkdir $ALICEVISION
 ```
 
+Not install required packages from the Ubuntu repository:
+
 ```
 sudo apt install gfortran gcc-6
-sudo apt install libboost-all-dev libilmbase-dev libopenexr-dev libopenimageio-dev libeigen3-dev libopenblas-dev libxinerama-dev libxcursor-dev 
+sudo apt install libboost-all-dev libilmbase-dev libopenexr-dev libopenimageio-dev 
+sudo apt install libeigen3-dev libopenblas-dev libxinerama-dev libxcursor-dev 
 ```
 
 

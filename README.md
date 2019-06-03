@@ -8,7 +8,7 @@ These instructions were based on many hours of trial-and-error on a working Ubun
 
 ![meshroom screenshot](./meshroom_screenshot.jpg)
 
-== Pre build preperation
+## Pre build preperation
 
 Let's keep it all together in under one directory. Let's call this 'alice_vision'. Define a environment variable:
 
@@ -20,13 +20,13 @@ sudo apt install libboost-all-dev libilmbase-dev libopenexr-dev libopenimageio-d
 
 
 
-== Install CUDA
+## Install CUDA
 
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt update
 sudo ubuntu-drivers autoinstall
 
-== Build and install Magma
+## Build and install Magma
 
 cd $ALICEVISION_DIR
 wget http://icl.utk.edu/projectsfiles/magma/downloads/magma-2.5.0.tar.gz
@@ -40,7 +40,7 @@ sudo make install
 
 This will install under /usr/local/magma
 
-== Build and install uncertaintyTE
+## Build and install uncertaintyTE
 
 ```
 cd $ALICEVISION_DIR
@@ -52,7 +52,7 @@ make -j4
 sudo make install
 ```
 
-== Build and install geogram
+## Build and install geogram
 
 ```
 cd $ALICEVISON_DIR
@@ -63,7 +63,7 @@ make -j4
 make install
 ```
 
-== Build and install OpenImageIO
+## Build and install OpenImageIO
 
 ```
 cd $ALICEVISION_DIR
@@ -74,7 +74,7 @@ make -j4
 sudo make install
 ```
 
-== Build install alembic
+## Build install alembic
 
 ```
 cd $ALICEVISION_DIR
@@ -85,7 +85,7 @@ make -j4
 sudo make install
 ```
 
-== Build and install AliceVision
+## Build and install AliceVision
 
 This requires older gcc version 6 to install.
 

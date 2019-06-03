@@ -1,11 +1,10 @@
 # AliceVision_Ubuntu
 
-A how-to for building AliceVision photogrammetry software on Ubuntu 18.04. These instructures were compiled on 3 June 2019. Future changes to the Git code repositories used by AliceVision may break these instructions. Feedback welcome via the GitHub issue tracker.
+A how-to for building AliceVision photogrammetry software on Ubuntu 18.04. These instructures were compiled on 3 June 2019. Future changes to the Git code repositories used by AliceVision may break these instructions. Feedback is welcome via the GitHub issue tracker.
 
 Hardware pre-prerequisites: an Nvidia CUDA compatible video card / GPU is required. One of the numerical packages (Magma) has a non-optional dependency on this. If you don't have this graphics card you are currently out of luck: there is no CPU fall back that I'm aware of.
 
 These instructions were based on many hours of trial-and-error on a working Ubuntu 18.04 distribution kitted with a modest Nvidia graphics card (GeForce GT 730).  I'd normally refine these instructions by testing on a clean installation running in a virtual machine, but because of the CUDA dependency this is not possible.
-
 
 ![meshroom screenshot](./meshroom_screenshot.jpg)
 
@@ -18,7 +17,7 @@ export ALICEVISION_DIR=$HOME/alice_vision
 mkdir $ALICEVISION
 ```
 
-Not install required packages from the Ubuntu repository:
+Now install required packages from the Ubuntu repository:
 
 ```
 sudo apt install gfortran gcc-6

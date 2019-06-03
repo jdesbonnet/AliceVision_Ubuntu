@@ -97,3 +97,17 @@ mkdir build; cd build;
 CC=gcc-6 CXX=g++-6 cmake ../AliceVision
 make -j4
 
+## Download and run meshroom
+
+```
+cd $ALICEVISION_DIR
+https://github.com/alicevision/meshroom.git
+cd meshroom
+pip install -r requirements.txt 
+```
+
+And run:
+
+```
+PYTHONPATH=$PWD python meshroom/ui
+```

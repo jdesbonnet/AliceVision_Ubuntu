@@ -67,6 +67,7 @@ sudo make install
 ```
 cd $ALICEVISON_DIR
 git clone https://github.com/alicevision/geogram.git
+cd geogram
 sh -f configure.sh
 cd build/Linux64-gcc-dynamic-Release 
 make -j4

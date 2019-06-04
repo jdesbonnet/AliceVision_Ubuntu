@@ -1,4 +1,4 @@
-# AliceVision_Ubuntu
+# Building AliceVision from source on Ubuntu 18.04
 
 A how-to for building AliceVision photogrammetry software on Ubuntu 18.04. These instructures were compiled on 3 June 2019. Future changes to AliceVision repositories may break these instructions. Feedback is welcome via the GitHub issue tracker.
 

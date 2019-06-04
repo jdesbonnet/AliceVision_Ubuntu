@@ -85,7 +85,7 @@ make -j4
 sudo make install
 ```
 
-## Build install alembic
+## Build and install alembic
 
 ```
 cd $ALICEVISION_DIR
@@ -98,7 +98,7 @@ sudo make install
 
 ## Build and install AliceVision
 
-This requires older gcc version 6 to install.
+This requires older gcc version 6.
 
 ```
 cd $ALICEVISION_DIR
@@ -107,7 +107,10 @@ cd AliceVision
 mkdir build; cd build; 
 CC=gcc-6 CXX=g++-6 cmake ../AliceVision
 make -j4
+sudo make install
 ```
+
+This is install under /usr/local.
 
 ## Download and run meshroom
 
